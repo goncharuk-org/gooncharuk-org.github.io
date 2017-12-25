@@ -1,0 +1,80 @@
+﻿
+header{
+	margin-top: 20px;
+	font-family: Caprum, Arial
+}
+.dws-menu *{
+	margin: 0;
+	padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
+}
+.dws-menu > ul{
+	display: flex;
+	justify-content: center;
+}
+.dws-menu > ul li a{
+	display: block;
+	background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d4e4ef+19,86aecc+94 */
+background: #d4e4ef; /* Old browsers */
+background: -moz-linear-gradient(top, #d4e4ef 19%, #86aecc 94%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d4e4ef 19%,#86aecc 94%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d4e4ef 19%,#86aecc 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc',GradientType=0 ); /* IE6-9 */
+	padding: 15px 30px 15px 40px;
+	font-size: 14px;
+	color: #454547;
+	text-decoration: none; 
+	text-transform: uppercase;
+		transition: all 0.3s ease;
+}
+.dws-menu > ul li{
+	position: relative;
+	border-right: 1px solid #c7c8ca;
+}
+.dws-menu > ul li > a i.fa{
+	position: absolute;
+	top: 15px;
+	left: 12px;
+	font-size: 18px;
+}
+.dws-menu > ul li:first-child{
+	border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+	border-right: 1px solid #babbbb;
+}
+.dws-menu li a:hover{
+	background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb76b+0,ff7c00+42 */
+background: #ffb76b; /* Old browsers */
+background: -moz-linear-gradient(top, #ffb76b 0%, #ff7c00 42%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffb76b 0%,#ff7c00 42%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffb76b 0%,#ff7c00 42%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7c00',GradientType=0 ); /* IE6-9 */
+	color: white;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+.dws-menu li ul{
+	position: absolute;
+	min-width:150px;
+	display: none;
+}
+.dws-menu li > ul li{
+	border: 1 px solid #c7c8ca;
+}
+.dws-menu li> ul li a{
+	padding: 10px;
+	text-transform: none;
+	background: #e4e4e5;
+}
+.dws-menu  li > ul li ul{
+	position: absolute;
+	right: -150px;
+	top: 0;
+}
+.dws-menu li:hover >ul{
+	display:block;
+}
